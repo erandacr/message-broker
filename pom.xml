@@ -53,6 +53,7 @@
         <module>modules/integration</module>
         <module>modules/coverage-report</module>
         <module>modules/features</module>
+        <module>modules/cli-client</module>
     </modules>
 
     <dependencyManagement>
@@ -363,5 +364,7 @@
         <guava.package.import.version.range>[20.0,30.0)</guava.package.import.version.range>
         <carbon.metrics.version>2.3.7</carbon.metrics.version>
         <rabbitmq.client.version>5.1.2</rabbitmq.client.version>
+        <go.sdk.version>1.9</go.sdk.version>
+        <go.wrapper.plugin.version>2.1.6</go.wrapper.plugin.version>
     </properties>
 </project>
